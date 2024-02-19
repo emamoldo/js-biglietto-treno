@@ -11,15 +11,27 @@ let km = kiloMetres * kmp
 
 // Richiedo all'utente l'età
 const age = prompt("how old are you?")
+
+console.log(littleAge < maxAge);
+
 if (littleAge < maxAge) {
     let minor = (km * 20) / 100
     console.log(minor)
+} else {
+    console.log(km)
+}
 
-} else if (maxAge >= normalAge){
-    let kmNormal = kiloMetres * kmp
-    console.log(kmNormal)
+console.log(maxAge <= normalAge);
+if (maxAge <= normalAge) {
+    console.log(km)
+} else {
+    
+}
 
-} else (age >= oldAge)
+console.log(age >= oldAge);
+if (age >= oldAge) {
     let older = (km * 40) / 100
-    console.log(older)    
-
+    console.log(older);
+} else {
+    
+}
